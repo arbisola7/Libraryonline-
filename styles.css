@@ -1,0 +1,92 @@
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/005/552/727/original/neon-hearts-pattern-valentine-s-day-pattern-red-hearts-on-dark-background-free-vector.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  color: #d81010; /* Ngjyra e tekstit */
+  box-sizing: border-box;
+}
+
+.app {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Ngjyra e background-it të aplikacionit me ndjenjë transparence */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #94be3e; /* Ngjyra rozë për vijën e menysë */
+  color: #111111;
+  border: none;
+  border-radius: 5px;
+}
+
+.tabs button.active {
+  background-color: #e72389; /* Ngjyra e kuqe për vijën aktive */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background-color: #ffb6c1; /* Ngjyra rozë për inputin */
+  color: #333;
+}
+
+.book-item {
+  border: 1px solid #dddddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #ffe0e0; /* Ngjyra e flesh-it për çdo libër */
+}
+
+.book-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.bookmarks-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.bookmarks-section p {
+  grid-column: span 3;
+  text-align: center;
+}
+
+.bookmarks-section button {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #141414; /* Ngjyra e kuqe e errët për butonin e bookmarks */
+  color: #0e0d0d;
+  border: none;
+  border-radius: 5px;
+}
+
+.bookmarks-section button:hover {
+  background-color: #e54747; /* Ngjyra e kuqe e ndezur kur kalon mbi butonin */
+}
